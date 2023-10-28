@@ -1,0 +1,77 @@
+.container {
+    min-height: 80vh;
+    margin-block: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .container > .row {
+    flex-basis: 100%;
+  }
+  .card-body {
+    padding: 10px; 
+    border: 1px solid #333;
+  }
+  
+  .btn {
+    font-size: 1.2rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .btn-secondary {
+    background-color: #99ffce;
+    color: #333;
+    border: 1px solid;
+  }
+
+  .btn-secondary:hover {
+    background-color: #333;
+    color: #99ffce;
+  }
+  
+  .btn-light {
+    background-color: #99ffce;
+    color: #333;
+    border: 1px solid;
+  }
+
+  .btn-light:hover {
+    background-color: #333;
+    color: #99ffce;
+  }
+  
+  .btn-warning {
+    background-color: #b3ffff;
+    color: #333;
+    border: 1px solid;
+  }
+
+  .btn-warning:hover {
+    background-color: #333;
+    color: #b3ffff
+  }
+  
+  .btn-block {
+    width: 80%;
+  }
+  
+  #zero-row {
+    margin-top: 0.7rem;
+  }
+  
+  .btn-block#zero {
+    width: 91%;
+  }
+  
+  .btn-group {
+    display: flex;
+  }
+  
+  .btn-group-vertical {
+    gap: 0.5235rem;
+    width: 80%;
+  }
+  
+  .btn-group-vertical > * {
+    width: 100%;
+  }
